@@ -1345,3 +1345,8 @@ h3 {
     background: #cfd9cd;
   }
 }
+/* 隐藏 Supabase 调试提示 */
+.supabase-hint,
+[class*="supabase-hint"] {
+  display: none !important;
+}
